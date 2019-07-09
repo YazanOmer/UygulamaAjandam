@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Araçlar"
+        android:title="Araçlar">
+        <menu>
+            <item
+                android:id="@+id/action_kilo"
+                android:title="İdeal Kilo" />
+            <item
+                android:id="@+id/action_hesap"
+                android:title="Hesap Makinesi" />
+            <item
+                android:id="@+id/action_oyun"
+                android:title="Sayı Tahmin Oyunu" />
+        </menu>
+    </item>
+    <item android:title="Eğlence">
+        <menu>
+            <item
+                android:id="@+id/action_film"
+                android:title="Filmler" />
+            <item
+                android:id="@+id/action_oyunlar"
+                android:title="Oyunlar" />
+        </menu>
+    </item>
+    <item android:title="Ayarlar" >
+        <menu >
+            <item
+                android:id="@+id/action_bilgi"
+                android:title="Bilgileri Düzenle" />
+        </menu>
+    </item>
+</menu>
